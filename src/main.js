@@ -20,5 +20,6 @@ let when = [
 function makeAnExcuse() {
   let num = Math.floor(Math.random() * 6) + 1;
   let excuse = `${who[num]} ${action[num]} ${what[num]} ${when[num]} `;
-  return;
+  console.log("hola");
+  document.getElementById("excuse").innerHTML = excuse;
 }
