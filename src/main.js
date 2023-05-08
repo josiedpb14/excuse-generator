@@ -19,7 +19,7 @@ let when = [
 
 function makeAnExcuse() {
   let num = Math.floor(Math.random() * 6) + 1;
-  let excuse = `${who[num]} ${action[num]} ${what[num]} ${when[num]} `;
-  console.log("hola");
+  let excuse = "AAAA";
+  
   document.getElementById("excuse").innerHTML = excuse;
 }
