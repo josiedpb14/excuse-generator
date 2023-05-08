@@ -4,7 +4,7 @@ let who = [
   "My Dog",
   "Mariano",
   "A warewolf",
-  "My neighbor",
+  "My neighbor"
 ];
 let action = ["stole", "scratched", "made", "drank", "lost", "broke"];
 let what = ["my phone", "your car", "a mess", "coke", "its prey", "the window"];
@@ -14,7 +14,7 @@ let when = [
   "during the evening",
   "while we werent looking",
   "when was asleep",
-  "when no one could see him",
+  "when no one could see him"
 ];
 
 function makeAnExcuse() {
