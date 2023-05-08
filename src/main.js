@@ -20,6 +20,5 @@ let when = [
 function makeAnExcuse() {
   let num = Math.floor(Math.random() * 6) + 1;
   let excuse = "AAAA";
-  console.log("main");
   document.getElementById("excuse").innerHTML = excuse;
 }
