@@ -1,3 +1,6 @@
+var button = document.getElementById("myButton");
+button.addEventListener("click",makeAnExcuse);
+
 function makeAnExcuse() {
   let num = Math.floor(Math.random() * 6) + 1;
   let excuse = "AAAA";
