@@ -1,3 +1,9 @@
+function makeAnExcuse() {
+  let num = Math.floor(Math.random() * 6) + 1;
+  let excuse = "AAAA";
+  document.getElementById("excuse").innerHTML = excuse;
+}
+
 let who = [
   "My mom",
   "Jeffry",
@@ -17,8 +23,4 @@ let when = [
   "when no one could see him"
 ];
 
-function makeAnExcuse() {
-  let num = Math.floor(Math.random() * 6) + 1;
-  let excuse = "AAAA";
-  document.getElementById("excuse").innerHTML = excuse;
-}
+
