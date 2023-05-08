@@ -1,6 +1,3 @@
-var button = document.getElementById("myButton");
-button.addEventListener("click",makeAnExcuse);
-
 function makeAnExcuse() {
   let num = Math.floor(Math.random() * 6) + 1;
   let excuse = "AAAA";
@@ -15,8 +12,22 @@ let who = [
   "A warewolf",
   "My neighbor"
 ];
-let action = ["stole", "scratched", "made", "drank", "lost", "broke"];
-let what = ["my phone", "your car", "a mess", "coke", "its prey", "the window"];
+let action = [
+  "stole",
+  "scratched",
+  "made",
+  "drank",
+  "lost",
+  "broke"
+];
+let what = [
+  "my phone",
+  "your car",
+  "a mess",
+  "coke",
+  "its prey",
+  "the window"
+];
 let when = [
   "while i was cooking",
   "When you werent looking",
