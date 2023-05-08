@@ -1,6 +1,6 @@
 function makeAnExcuse() {
   let num = Math.floor(Math.random() * 6) + 1;
-  let excuse = "AAAA";
+  let excuse = `${who[num]} ${action[num]} ${what[num]} ${when[num]}`;
   document.getElementById("excuse").innerText = excuse;
 }
 
