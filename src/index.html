@@ -31,14 +31,16 @@
     <script>
       function makeAnExcuse() {
         let num = Math.floor(Math.random() * 6);
-        let excuse = `${who[num]} ${action[num]} ${what[num]} ${when[num]}`;
+        let num1 = Math.floor(Math.random() * 6);
+        let num2 = Math.floor(Math.random() * 6);
+        let num3 = Math.floor(Math.random() * 6);
+        let excuse = `${adjective[num]} ${who[num1]} ${action[num2]} ${what[num3]}`;
         document.getElementById("excuse").innerText = excuse;
       }
-
-      let who = ["My mom","Jeffry","My Dog","Mariano","A warewolf","My neighbor"];
-      let action = ["stole", "scratched", "made", "drank", "lost", "broke"];
-      let what = ["my phone", "your car", "a mess", "coke", "its prey", "the window"];
-      let when = ["while i was cooking","When you werent looking","during the evening","while we werent looking","when was asleep","when no one could see him"];
-    </script>  
+      let adjective = ["A strange","A small","A large","A smelly","A jealous","A sleepy"]
+      let who = ["mother","american","dog","gnome","dinosaur","neighbor"];
+      let action = ["stole", "scratched", "drove over", "ate", "lost", "broke"];
+      let what = ["my phone", "my car", "my house", "my homework", "my watch", "my suitcase"];
+    </script>
   </body>
 </html>
